@@ -26,8 +26,9 @@ proxies:
     port: 443
     password: 4080bae3-eac2-3e05-bede-b1522c2914bf
     sni: dmlosgia.skiturbo.xyz
-  - {name: 🇭🇰 香港高级中转-①, server: hk-az-o-1.v2fast.win, port: 80, type: vmess, uuid: f2d081a2-d88f-4114-b162-ad8db8b94e6d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk-az-o-1.v2fast.win}}
-  - {name: 🇭🇰 香港高级中转-②, server: hk-az-o-2.v2fast.win, port: 80, type: vmess, uuid: f2d081a2-d88f-4114-b162-ad8db8b94e6d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk-az-o-2.v2fast.win}}
+  - {name: 🇭🇰 香港高级中转-①, server: hk-az-o-2.v2fast.win, port: 80, type: vmess, uuid: f2d081a2-d88f-4114-b162-ad8db8b94e6d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk-az-o-2.v2fast.win}}
+  - {name: 🇭🇰 香港高级中转-②, server: hk-az-o-3.v2fast.win, port: 80, type: vmess, uuid: f2d081a2-d88f-4114-b162-ad8db8b94e6d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk-az-o-3.v2fast.win}}
+  - {name: 🇭🇰 香港高级中转-⑤, server: hk-az-o-5.v2fast.win, port: 80, type: vmess, uuid: f2d081a2-d88f-4114-b162-ad8db8b94e6d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: hk-az-o-5.v2fast.win}}
   - {name: 🇯🇵 日本高级中转-①, server: jp-az-o-1.v2fast.win, port: 80, type: vmess, uuid: f2d081a2-d88f-4114-b162-ad8db8b94e6d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jp-az-o-1.v2fast.win}}
   - {name: 🇰🇷 韩国高级中转-①, server: kr-az-o-1.v2fast.win, port: 80, type: vmess, uuid: f2d081a2-d88f-4114-b162-ad8db8b94e6d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: kr-az-o-1.v2fast.win}}
 proxy-groups:
@@ -41,6 +42,7 @@ proxy-groups:
       - 美国 D CN2GIA (电信专用)
       - 🇭🇰 香港高级中转-①
       - 🇭🇰 香港高级中转-②
+      - 🇭🇰 香港高级中转-⑤
       - 🇯🇵 日本高级中转-①
       - 🇰🇷 韩国高级中转-①
   - name: ♻️ 自动选择
@@ -53,6 +55,7 @@ proxy-groups:
       - 美国 D CN2GIA (电信专用)
       - 🇭🇰 香港高级中转-①
       - 🇭🇰 香港高级中转-②
+      - 🇭🇰 香港高级中转-⑤
       - 🇯🇵 日本高级中转-①
       - 🇰🇷 韩国高级中转-①
   - name: 🌍 国外媒体
@@ -66,6 +69,7 @@ proxy-groups:
       - 美国 D CN2GIA (电信专用)
       - 🇭🇰 香港高级中转-①
       - 🇭🇰 香港高级中转-②
+      - 🇭🇰 香港高级中转-⑤
       - 🇯🇵 日本高级中转-①
       - 🇰🇷 韩国高级中转-①
   - name: 📲 电报信息
@@ -78,6 +82,7 @@ proxy-groups:
       - 美国 D CN2GIA (电信专用)
       - 🇭🇰 香港高级中转-①
       - 🇭🇰 香港高级中转-②
+      - 🇭🇰 香港高级中转-⑤
       - 🇯🇵 日本高级中转-①
       - 🇰🇷 韩国高级中转-①
   - name: Ⓜ️ 微软服务
@@ -90,6 +95,7 @@ proxy-groups:
       - 美国 D CN2GIA (电信专用)
       - 🇭🇰 香港高级中转-①
       - 🇭🇰 香港高级中转-②
+      - 🇭🇰 香港高级中转-⑤
       - 🇯🇵 日本高级中转-①
       - 🇰🇷 韩国高级中转-①
   - name: 🍎 苹果服务
@@ -102,6 +108,7 @@ proxy-groups:
       - 美国 D CN2GIA (电信专用)
       - 🇭🇰 香港高级中转-①
       - 🇭🇰 香港高级中转-②
+      - 🇭🇰 香港高级中转-⑤
       - 🇯🇵 日本高级中转-①
       - 🇰🇷 韩国高级中转-①
   - name: 📢 谷歌FCM
@@ -115,6 +122,7 @@ proxy-groups:
       - 美国 D CN2GIA (电信专用)
       - 🇭🇰 香港高级中转-①
       - 🇭🇰 香港高级中转-②
+      - 🇭🇰 香港高级中转-⑤
       - 🇯🇵 日本高级中转-①
       - 🇰🇷 韩国高级中转-①
   - name: 🎯 全球直连
@@ -144,6 +152,7 @@ proxy-groups:
       - 美国 D CN2GIA (电信专用)
       - 🇭🇰 香港高级中转-①
       - 🇭🇰 香港高级中转-②
+      - 🇭🇰 香港高级中转-⑤
       - 🇯🇵 日本高级中转-①
       - 🇰🇷 韩国高级中转-①
 rules:
